@@ -1,10 +1,7 @@
-*~
-*.bak
-*.pyc
-*.pyc-2.4
-Thumbs.db
-*.iml
-.idea/
-*.yarn/
-.yarnrc
-gen/
+/build/
+/config.mk
+include/dlg/
+src/dlg/dlg.c
+subprojects/*
+!subprojects/*.wrap
+/tests/data/*
